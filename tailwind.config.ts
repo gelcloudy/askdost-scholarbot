@@ -18,6 +18,9 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -61,7 +64,12 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// DOST Brand Colors
+				'dost-blue': 'hsl(var(--dost-blue))',
+				'dost-yellow': 'hsl(var(--dost-yellow))',
+				'dost-blue-light': 'hsl(var(--dost-blue-light))',
+				'dost-blue-dark': 'hsl(var(--dost-blue-dark))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
