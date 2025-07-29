@@ -9,49 +9,31 @@ interface ScholarshipTabsProps {
 
 const scholarships = [
   {
-    id: "science-technology",
+    id: "undergraduate-scholarships",
     title: "Science & Technology Undergraduate",
-    description: "Full scholarship for students pursuing STEM degrees",
+    description: "Scholarship  for students pursuing STEM degrees",
     icon: Microscope,
-    benefits: ["Full tuition", "Monthly stipend", "Books allowance", "Thesis allowance"],
+    benefits: ["Tuition allowance", "Monthly stipend", "Books allowance", "Thesis allowance"],
     eligibility: "High school graduates with strong science and math background",
     color: "bg-blue-50 border-dost-blue"
   },
   {
     id: "junior-level",
-    title: "Junior Level Science Teaching",
-    description: "Scholarship for future science teachers",
+    title: "Junior Level Science Scholarship",
+    description: "Scholarship for incoming third year students",
     icon: BookOpen,
-    benefits: ["Full tuition", "Monthly stipend", "Teaching materials", "Service obligation"],
-    eligibility: "College students in education or science programs",
+    benefits: ["Tuition allowance", "Monthly stipend", "Books allowance", "Thesis allowance"],
+    eligibility: "Incoming third year college students enrolled in DOST priority programs",
     color: "bg-yellow-50 border-dost-yellow"
   },
   {
-    id: "senior-high",
-    title: "Senior High School",
-    description: "Support for STEM strand students",
+    id: "graduate-scholarships",
+    title: "Masters and Doctorate Scholarships",
+    description: "Support for master's and doctoral students",
     icon: GraduationCap,
-    benefits: ["Tuition assistance", "Learning materials", "Uniforms allowance"],
-    eligibility: "Students enrolled in STEM strand",
+    benefits: ["Tuition allowance", "Monthly stipend", "Thesis allowance"],
+    eligibility: "Natural-born Filipino citizens enrolled in a master's or doctoral program in a DOST-accredited institution",
     color: "bg-green-50 border-green-500"
-  },
-  {
-    id: "vocational",
-    title: "Vocational Education & Training",
-    description: "Technical skills development programs",
-    icon: Laptop,
-    benefits: ["Training fees", "Tools and equipment", "Certification support"],
-    eligibility: "High school graduates or equivalent",
-    color: "bg-purple-50 border-purple-500"
-  },
-  {
-    id: "merit",
-    title: "Merit Scholarship",
-    description: "For academically excellent students",
-    icon: Users,
-    benefits: ["Full tuition", "High monthly stipend", "Research allowance", "Conference support"],
-    eligibility: "Top-performing students with exceptional academic records",
-    color: "bg-orange-50 border-orange-500"
   }
 ];
 

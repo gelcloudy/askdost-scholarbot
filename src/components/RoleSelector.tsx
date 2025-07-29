@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { User, Heart, GraduationCap, ArrowRight } from "lucide-react"
+import Footer from "./Footer"
 
 interface RoleSelectorProps {
   onRoleSelect: (role: 'applicant' | 'parent' | 'scholar') => void;
@@ -17,13 +18,13 @@ const roles = [
   {
     id: 'parent' as const,
     title: 'Parent/Guardian',
-    description: 'I\'m a parent helping my child with scholarship applications',
+    description: 'I\'m a parent helping my child with scholarship applications and inquiries',
     icon: Heart,
     color: 'bg-yellow-50 hover:bg-yellow-100 border-dost-yellow'
   },
   {
     id: 'scholar' as const,
-    title: 'Current Scholar',
+    title: 'Ongoing Scholar',
     description: 'I\'m already a DOST scholar with questions about my scholarship',
     icon: GraduationCap,
     color: 'bg-green-50 hover:bg-green-100 border-green-500'
@@ -76,9 +77,6 @@ const RoleSelector = ({ onRoleSelect }: RoleSelectorProps) => {
       </div>
 
       <div className="text-center mt-6">
-        <p className="text-sm text-muted-foreground">
-          Don't worry, you can always change this later during our conversation
-        </p>
       </div>
     </div>
   );

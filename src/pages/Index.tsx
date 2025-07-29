@@ -50,6 +50,7 @@ const Index = () => {
         <div className="flex items-center justify-center py-16">
           <RoleSelector onRoleSelect={handleRoleSelect} />
         </div>
+        <Footer />
       </div>
     );
   }

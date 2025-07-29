@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Send, ThumbsUp, ThumbsDown, User, Bot, MessageCircle } from "lucide-react"
+import Footer from "./Footer"
 
 interface Message {
   id: string;
@@ -240,6 +241,7 @@ const ChatInterface = ({ userRole, onBackToHome }: ChatInterfaceProps) => {
           This is a demo. In production, responses would be powered by AI trained on DOST scholarship information.
         </p>
       </div>
+      <Footer />
     </div>
   );
 };
